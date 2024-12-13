@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Farsan&family=Happy+Monkey&family=Honk:MORF,SHLN@22,17.6&family=Keania+One&family=Nabla:EDPT,EHLT@0..200,0..24&family=Orbitron&family=Schoolbell&family=Sue+Ellen+Francisco&family=Yatra+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="player">
+                <h1>HOME</h1>
+                <h2 class="score-board" id="points-el">0</h2>
+                <button onclick="score1()">+1</button>
+                <button onclick="score2()">+2</button>
+                <button onclick="score3()">+3</button>
+            </div>
+            <div id="player">
+                <h1>GUEST</h1>
+                <h2 class="score-board" id="count-el">0</h2>
+                <button onclick="goal1()">+1</button>
+                <button onclick="goal2()">+2</button>
+                <button onclick="goal3()">+3</button>
+            </div>
+            <button id="reset-btn" onclick="reset()">RESET</button>
+            </div>
+            
+        <script src="index.js"></script>
+    </body>
+</html>
